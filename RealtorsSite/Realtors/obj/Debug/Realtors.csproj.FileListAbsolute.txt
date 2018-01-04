@@ -1,0 +1,203 @@
+C:\Projects\Риелторы\Realtors\Realtors\bin\ApplicationInsights.config
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\csc.exe
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\csc.exe.config
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\csc.rsp
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\csi.exe
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\csi.rsp
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\System.AppContext.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\System.IO.FileSystem.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\vbc.exe
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\vbc.exe.config
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\vbc.rsp
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\VBCSCompiler.exe
+C:\Projects\Риелторы\Realtors\Realtors\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\Риелторы\Realtors\Realtors\bin\Realtors.dll.config
+C:\Projects\Риелторы\Realtors\Realtors\bin\Realtors.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Realtors.pdb
+C:\Projects\Риелторы\Realtors\Realtors\bin\Antlr3.Runtime.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.AI.Web.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Newtonsoft.Json.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.Helpers.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.Mvc.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.Optimization.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.Razor.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.Razor.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\WebGrease.dll
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.Helpers.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.Mvc.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.Optimization.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.Razor.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.Razor.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\Antlr3.Runtime.pdb
+C:\Projects\Риелторы\Realtors\Realtors\bin\Newtonsoft.Json.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.ApplicationInsights.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\Риелторы\Realtors\Realtors\bin\Microsoft.AI.Web.xml
+C:\Projects\Риелторы\Realtors\Realtors\obj\Debug\Realtors.csprojResolveAssemblyReference.cache
+C:\Projects\Риелторы\Realtors\Realtors\obj\Debug\Realtors.dll
+C:\Projects\Риелторы\Realtors\Realtors\obj\Debug\Realtors.pdb
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\ApplicationInsights.config
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\csc.exe
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\csc.exe.config
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\csc.rsp
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\csi.exe
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\csi.rsp
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\System.AppContext.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\vbc.exe
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\vbc.exe.config
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\vbc.rsp
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\VBCSCompiler.exe
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Realtors.dll.config
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Realtors.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Realtors.pdb
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Antlr3.Runtime.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.AI.Web.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.ApplicationInsights.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Newtonsoft.Json.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.Helpers.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.Mvc.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.Optimization.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.Razor.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.Deployment.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.Razor.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\WebGrease.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Newtonsoft.Json.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.Helpers.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.Mvc.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.Optimization.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.Razor.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.Deployment.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\System.Web.WebPages.Razor.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Antlr3.Runtime.pdb
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.ApplicationInsights.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\bin\Microsoft.AI.Web.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\obj\Debug\Realtors.csprojResolveAssemblyReference.cache
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\obj\Debug\Realtors.csproj.CoreCompileInputs.cache
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\obj\Debug\Realtors.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\Realtors\Realtors\obj\Debug\Realtors.pdb
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\ApplicationInsights.config
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\csc.exe
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\csc.exe.config
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\csc.rsp
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\csi.exe
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\csi.rsp
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\System.AppContext.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\vbc.exe
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\vbc.exe.config
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\vbc.rsp
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\VBCSCompiler.exe
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Realtors.dll.config
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Realtors.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Realtors.pdb
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Antlr3.Runtime.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.AI.Web.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.ApplicationInsights.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Newtonsoft.Json.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.Helpers.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.Mvc.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.Optimization.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.Razor.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.WebPages.Deployment.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.WebPages.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.WebPages.Razor.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\WebGrease.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Newtonsoft.Json.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.Helpers.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.Mvc.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.Optimization.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.Razor.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.WebPages.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.WebPages.Deployment.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\System.Web.WebPages.Razor.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Antlr3.Runtime.pdb
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.ApplicationInsights.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\bin\Microsoft.AI.Web.xml
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\obj\Debug\Realtors.csprojResolveAssemblyReference.cache
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\obj\Debug\Realtors.csproj.CoreCompileInputs.cache
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\obj\Debug\Realtors.dll
+C:\Users\marse\OneDrive\Рабочий стол\Риелторы\RealtorsSite\Realtors\obj\Debug\Realtors.pdb
