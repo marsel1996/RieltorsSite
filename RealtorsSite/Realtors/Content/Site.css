@@ -403,10 +403,7 @@ a {
 
 .wrapper,
 .footer {
-    min-height: 100%;
     width: 100%;
-    max-width: 10000px;
-    position: relative;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -433,8 +430,8 @@ a {
 }
 
 .footer {
-    min-height: 100px;
-    margin: -50px auto 0 auto;
+    height: 270px;
+    position: relative;
 }
 
 .video {
@@ -1188,7 +1185,7 @@ a {
 
     .prod_block .btn {
         display: block;
-        margin: 0 6.8%;
+        margin: auto;
     }
 
     .prod_block .fav_ico {
@@ -2204,7 +2201,6 @@ a {
         }
 
 .calc_sec {
-    margin-bottom: -50px;
 }
 
 .calc_form {
@@ -2435,7 +2431,7 @@ a {
     }
 
     .prod_discrip .tabs2 {
-        width: 70.7%;
+        width: 100%;
         float: left;
     }
 
@@ -2538,7 +2534,9 @@ a {
         vertical-align: top;
         margin: 0 54px 26px 0;
         position: relative;
-        padding: 0 0 0 34px;
+        padding: 0px;
+        left: 50%;
+        transform: translate(-50%, 0%);
         font-size: 35px;
         font-weight: 400;
         line-height: 1;

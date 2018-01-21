@@ -1,0 +1,24 @@
+﻿@model Realtors.Models.RoomPageModel
+
+<div>
+    <div class="conteiner-main-rooms">
+        @for (int i = 0; i < @Model.Rooms.Count; i+=3)
+        {
+            <div class="conteiner-group-room">
+                @Html.Partial("RoomView", @Model.Rooms[i])
+                @if (i + 1 < @Model.Rooms.Count)
+                {
+                @Html.Partial("RoomView", @Model.Rooms[i + 1])
+                }
+                @if (i + 2 < @Model.Rooms.Count)
+                {
+                @Html.Partial("RoomView", @Model.Rooms[i + 2])
+                }
+                @if (i + 3 < @Model.Rooms.Count)
+                {
+                    @Html.Partial("RoomView", @Model.Rooms[i + 3])
+                }
+            </div>
+        }
+    </div>
+</div>

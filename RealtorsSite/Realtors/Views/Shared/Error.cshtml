@@ -1,13 +1,21 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Error</title>
-</head>
-<body>
-    <hgroup>
-        <h1>Error.</h1>
-        <h2>An error occurred while processing your request.</h2>
-    </hgroup>
-</body>
-</html>
+﻿@model System.Web.Mvc.HandleErrorInfo
+@{
+    ViewBag.Title = "Ошибка";
+    Layout = null;
+}
+<h1 style="color:red">
+    Ошибка
+</h1>
+<div class="alert alert-danger" role="alert" style="margin-bottom: 20px; margin-top: 20px">
+    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+    @Model.Exception.Message
+</div>
+@if (Request.UrlReferrer != null)
+{
+    <p>
+        <a href="@Request.UrlReferrer">
+            @string.Concat("← ", "Назад")
+        </a>
+
+    </p>
+}

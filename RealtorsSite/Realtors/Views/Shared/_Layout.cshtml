@@ -8,126 +8,130 @@
     <link href="~/Content/RealtorsCSS.css" rel="stylesheet">
     <link href="~/Content/Site.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-
+    <link href='~/Content/bootstrap.css' rel='stylesheet' type='text/css'>
+    <script src="~/Scripts/jquery-3.2.1.js"></script>
     @RenderSection("SectionHead")
 </head>
-<body>
-    <header class="header">
-        <div class="top_line">
-            <div class="container">
-                <div id="menu_label"><span id="nav-toggle"><span></span></span></div>
-                <nav id="menu" class="menu">
-                    <div id="menu_bLine" class="menu_bLine default">
-                        <ul>
+<body style="height: 100%;">
+<div id="main-conteiner">
+    <div style="position: relative" id="content-conteiner">
+        <header class="header">
+            <div class="top_line">
+                <div class="container">
+                    <div id="menu_label"><span id="nav-toggle"><span></span></span></div>
+                    <nav id="menu" class="menu">
+                        <div id="menu_bLine" class="menu_bLine default">
+                            <ul>
+                                <li>
+                                    <a href="" class="item1">Новостройки</a>
+                                </li>
+                                <li>
+                                    <a href="" class="item2">Вторичное жилье</a>
+                                </li>
+                                <li>
+                                    <a href="" class="item3">Аренда квартир / домов</a>
+                                </li>
+                                <li>
+                                    <a href="" class="item4">Коммерческая недвижимость</a>
+                                </li>
+                                <li>
+                                    <a href="" class="item5">Загородная недвижимость</a>
+                                </li>
+                                <li>
+                                    <a href="" class="item6">Земельные участки</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="bxdynamic_XEVOpk_start" style="display: none"></div>
+                        <ul class="menu_tLine">
                             <li>
-                                <a href="" class="item1">Новостройки</a>
+                                <a href="@Url.Action("Index", "Home")">Главная</a>@*class="active"*@
                             </li>
                             <li>
-                                <a href="" class="item2">Вторичное жилье</a>
+                                <a href="">Услуги</a>
                             </li>
                             <li>
-                                <a href="" class="item3">Аренда квартир / домов</a>
+                                <a href="">Нашим клиентам</a>
                             </li>
                             <li>
-                                <a href="" class="item4">Коммерческая недвижимость</a>
+                                <a href="">Работа у нас</a>
                             </li>
                             <li>
-                                <a href="" class="item5">Загородная недвижимость</a>
+                                <a href="">Обзор рынка</a>
                             </li>
                             <li>
-                                <a href="" class="item6">Земельные участки</a>
+                                <a href="">Акции</a>
+                            </li>
+                            <li>
+                                <a href="">О компании</a>
+                            </li>
+                            <li>
+                                <a href="">Контакты</a>
                             </li>
                         </ul>
-                    </div>
-                    <div id="bxdynamic_XEVOpk_start" style="display:none"></div>
-                    <ul class="menu_tLine">
-                        <li>
-                            <a href="@Url.Action("Index","Home")">Главная</a>@*class="active"*@
-                        </li>
-                        <li>
-                            <a href="">Услуги</a>
-                        </li>
-                        <li>
-                            <a href="">Нашим клиентам</a>
-                        </li>
-                        <li>
-                            <a href="">Работа у нас</a>
-                        </li>
-                        <li>
-                            <a href="">Обзор рынка</a>
-                        </li>
-                        <li>
-                            <a href="">Акции</a>
-                        </li>
-                        <li>
-                            <a href="">О компании</a>
-                        </li>
-                        <li>
-                            <a href="">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div style="display:flex;justify-content:space-around;">
-                    <div class="top_phone_hold">
-                        <a class="phone_num" href="">
-                            8 929-264-34-89
-                        </a>
-                    </div>
-                    @if (Context.User.Identity.Name != "")
-                    {
-                        <div class="top_icon_hold" style="display:flex;flex-direction:column;padding-top: 4px;color: white;">
-                            <div>
-                                 @Context.User.Identity.Name
-                            </div>
-                            <div style="margin-top: 5px;">
-                                <a href="@Url.Action("Logout", "Account")" class="logout">Выход</a>
-                            </div>
-                        </div>
-                    }
-                    else
-                    {
-                        <div class="top_icon_hold" style="color: white;">
-                            <a class="log-in" href="@Url.Action("Index", "Account")">
-                                Вход
+                    </nav>
+                    <div style="display: flex; justify-content: space-around;">
+                        <div class="top_phone_hold">
+                            <a class="phone_num" href="">
+                                8 929-264-34-89
                             </a>
                         </div>
-                    }
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="http://www.nord-ndv.ru/upload/medialibrary/e85/e85f5afde0fab75e2e87bf8ea702ffee.png">
-            </a>
-            <div class="top_adr_hold">
-                <div class="top_adr_wrap">
-                    <div class="time_work">
-                        пн-пт с 17:00 до 20:10<br>
-                        сб с 08:00 до 13:30
+                        @if (Context.User.Identity.Name != "")
+                        {
+                            <div class="top_icon_hold" style="display: flex; flex-direction: column; padding-top: 4px; color: white;">
+                                <div>
+                                    @Context.User.Identity.Name
+                                </div>
+                                <div style="margin-top: 5px;">
+                                    <a href="@Url.Action("Logout", "Account")" class="logout">Выход</a>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="top_icon_hold" style="color: white;">
+                                <a class="log-in" href="@Url.Action("Index", "Account")">
+                                    Вход
+                                </a>
+                            </div>
+                        }
                     </div>
                 </div>
-                <div class="top_adr_wrap">
-                    <div class="top_adr">
-                        г. Тюмень <br>
-                        ул. Перекопская 15а
-                    </div>
-                </div>
-                <a class="btn" href="#">Оставить заявку</a>
             </div>
-        </div>
-    </header>
-    
-    <div style="min-height:500px">
-        @RenderSection("SectionContent")
-    </div>
+            <div class="container" style="display: flex">
+                <a href="#" class="logo">
+                    <img src="http://www.nord-ndv.ru/upload/medialibrary/e85/e85f5afde0fab75e2e87bf8ea702ffee.png">
+                </a>
+                <div class="top_adr_hold">
+                    <div class="top_adr_wrap">
+                        <div class="time_work">
+                            пн-пт с 17:00 до 20:10<br>
+                            сб с 08:00 до 13:30
+                        </div>
+                    </div>
+                    <div class="top_adr_wrap">
+                        <div class="top_adr">
+                            г. Тюмень <br>
+                            ул. Перекопская 15а
+                        </div>
+                    </div>
+                    <a class="btn send-request-button" href="#">Оставить заявку</a>
+                </div>
+            </div>
+        </header>
 
+        <div style="background: #f3f3f3">
+            @RenderSection("SectionContent")
+        </div>
+
+    </div>
     <footer class="footer">
         <div class="foot_bottom">
             <div class="container">
                 <nav class="menu_bottom">
                     <div class="hold menu_b">
                         <strong>Недвижимость</strong>
-                        <div id="bxdynamic_g8taYv_start" style="display:none"></div>
+                        <div id="bxdynamic_g8taYv_start" style="display: none"></div>
                         <ul>
                             <li><a href="">Новостройки</a></li>
                             <li><a href="">Вторичное жилье</a></li>
@@ -136,11 +140,11 @@
                             <li><a href="">Загородная недвижимость</a></li>
                             <li><a href="">Земельные участки</a></li>
                         </ul>
-                        <div id="bxdynamic_g8taYv_end" style="display:none"></div>
+                        <div id="bxdynamic_g8taYv_end" style="display: none"></div>
                     </div>
                     <div class="hold menu_b">
                         <strong>Агентство недвижимости</strong>
-                        <div id="bxdynamic_rIpOz9_start" style="display:none"></div>
+                        <div id="bxdynamic_rIpOz9_start" style="display: none"></div>
                         <ul>
                             <li><a href="">Услуги</a></li>
                             <li><a href="">Нашим клиентам</a></li>
@@ -151,11 +155,11 @@
                             <li><a href="">Контакты</a></li>
                             <li><a href="">Кабинет риелтора</a></li>
                         </ul>
-                        <div id="bxdynamic_rIpOz9_end" style="display:none"></div>
+                        <div id="bxdynamic_rIpOz9_end" style="display: none"></div>
                     </div>
-                    <div class="hold adr_footer" style="width:300px">
+                    <div class="hold adr_footer" style="width: 300px">
                         <strong>Контакты</strong>
-                        <ul style="width:300px">
+                        <ul style="width: 300px">
                             <li>
                                 г. Тюмень ул. Перекопская 15а
                             </li>
@@ -168,7 +172,7 @@
                         </ul>
                     </div>
                 </nav>
-                <div class="clearfix" style="display:flex;justify-content:flex-end">
+                <div class="clearfix" style="display: flex; justify-content: flex-end">
                     <div class="copy">
                         © Агентство недвижимости «Своя Квартира», 2017
                     </div>
@@ -176,5 +180,79 @@
             </div>
         </div>
     </footer>
+</div>
+    
+<div class="send-request-conteiner-main display-none" >
+    <div class="send-request-conteiner-main-padding"></div>
+    <div class="send-request-conteiner">
+        <a title="Close" class="send-request-conteiner-close"></a>
+        <div>
+            <div class="send-request-conteiner-caption">
+                Ваша заявка
+            </div>
+            <div class="send-request-conteiner-values">
+                <div>
+                    <input id="sendClient" class="send-request-conteiner-input" type="text" placeholder="Ваше имя *" required />
+                </div>
+                <div>
+                    <input id="sendTel" class="send-request-conteiner-input" type="tel" required placeholder=" Ваш телефон *" />
+                </div>
+                <div>
+                    <input id="sendEmail" class="send-request-conteiner-input" type="email" pattern=@Html.Raw(@"[^@]+@[^@]+\.[a-zA-Z]{{2,6}}") placeholder="Ваш E-mail" required />
+                </div>
+                <div>
+                    <textarea id="sendMessage" name="message" placeholder="Сообщение" required=""></textarea>
+                </div>
+            </div>
+            <div class="send-request-conteiner-button-conteiner">
+                <button class="send-request-conteiner-button">Отправить</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var addEvent = function(object, type, callback) {
+        if (object == null || typeof(object) == 'undefined') return;
+        if (object.addEventListener) {
+            object.addEventListener(type, callback, false);
+        } else if (object.attachEvent) {
+            object.attachEvent("on" + type, callback);
+        } else {
+            object["on"+type] = callback;
+        }
+    };
+
+    $(document).ready(function () {
+        MarginFooter();
+        addEvent(window, "resize", MarginFooter);
+    });
+
+    function MarginFooter() {
+        let winHeight = window.innerHeight;
+        let contentHeight = $("#content-conteiner")[0].clientHeight;
+        let footerHeight = $(".footer")[0].clientHeight;
+        if (winHeight - footerHeight > contentHeight) {
+            $(".footer").css("margin-top", winHeight - footerHeight - contentHeight);
+        } else {
+            $(".footer").css("margin-top", 0);
+        }
+    }
+
+    $(".send-request-button").click(function(event) {
+        $(".send-request-conteiner-main").removeClass("display-none").addClass("display-block");
+    });
+
+    $(".send-request-conteiner-main-padding").click(function (event) {
+        CloseSendConteiner();
+    });
+    $(".send-request-conteiner-close").click(function (event) {
+        CloseSendConteiner();
+    });
+    function CloseSendConteiner() {
+        $(".send-request-conteiner-main").addClass("display-none").removeClass("display-block");
+        $(".send-request-conteiner-values input").val("");
+        $(".send-request-conteiner-values textarea").val("");
+    }
+</script>
 </body>
 </html>

@@ -1,10 +1,12 @@
 ﻿using Realtors.Class;
+using Realtors.Infrastructure;
 using Realtors.Models;
 using System.Web.Mvc;
 using System.Web.Security;
 
 namespace Realtors.Controllers
 {
+    [ExceptionLogger(View = "Error")]
     public class AccountController : Controller
     {
         private readonly MethodService _methodService = new MethodService();
