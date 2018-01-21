@@ -64,14 +64,23 @@
                 <div class="container">
                     <div class="tabs2 ui-tabs ui-corner-all ui-widget ui-widget-content">
                         <ul class="tab-hold ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
-                            <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tabs2-1" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#tabs2-1" role="presentation" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Параметры</a></li>
-                            <li role="tab" tabindex="-1" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab" aria-controls="tabs2-2" aria-labelledby="ui-id-2" aria-selected="false" aria-expanded="false"><a href="#tabs2-2" role="presentation" tabindex="-1" class="ui-tabs-anchor" id="ui-id-2">Описание</a></li>
-                            <li role="tab" tabindex="-1" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab" aria-controls="tabs2-3" aria-labelledby="ui-id-3" aria-selected="false" aria-expanded="false"><a href="#tabs2-3" role="presentation" tabindex="-1" class="ui-tabs-anchor" id="ui-id-3">На карте</a></li>
+                            <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab @if (@Model.TabNumber == 1)
+                                                                                                                 {@Html.Raw(" ui-tabs-active ui-state-active")
+                                                                                                                 }" aria-controls="tabs2-1" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true">
+                                <a href="@Url.Action("RoomOneView", "Room", new RouteValueDictionary(new {idRoom = @Model.Id, tabNumber = 1}))" role="presentation" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Параметры</a>
+                            </li>
+                            <li role="tab" tabindex="-1" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab @if (@Model.TabNumber == 2)
+                                                                                                                  {@Html.Raw(" ui-tabs-active ui-state-active")
+                                                                                                                  }" aria-controls="tabs2-2" aria-labelledby="ui-id-2" aria-selected="false" aria-expanded="false">
+                                <a href="@Url.Action("RoomOneView", "Room", new RouteValueDictionary(new {idRoom = @Model.Id, tabNumber = 2}))" role="presentation" tabindex="-1" class="ui-tabs-anchor" id="ui-id-2">Описание</a>
+                            </li>
                         </ul>
-                        <div class="tabs_blk ui-tabs-panel ui-corner-bottom ui-widget-content" id="tabs2-1" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false">
-                            <div class="table_hold">
-                                <table>
-                                    <tbody>
+                        @if (@Model.TabNumber == 1)
+                        {
+                            <div class="tabs_blk ui-tabs-panel ui-corner-bottom ui-widget-content" id="tabs2-1" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false">
+                                <div class="table_hold">
+                                    <table>
+                                        <tbody>
                                         <tr>
                                             <td>Цена</td>
                                             <td>@Model.Price</td>
@@ -100,15 +109,25 @@
                                             <td>Этаж</td>
                                             <td>@Model.FooterNumber</td>
                                         </tr>
-                                    </tbody>
-                                </table>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
-                        </div>
+                        }
+                        @if (@Model.TabNumber == 2)
+                        {
+                            <div>
+                                <textarea id="textDescription" style="width: 100%;min-height: 150px;border-radius: 15px;border: 1px solid #2da9e9;color: black;font-size: 16px;padding: 20px">@Model.Description.Trim()</textarea>
+                            </div>
+                        }
                     </div>
                 </div>
             </section>
         </section>
     }
+    <script>
+        autosize($('#textDescription'));
+    </script>
 }
 
 @section SectionHead

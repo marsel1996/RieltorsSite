@@ -10,9 +10,10 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href='~/Content/bootstrap.css' rel='stylesheet' type='text/css'>
     <script src="~/Scripts/jquery-3.2.1.js"></script>
+    <script src="~/Scripts/autosize.js"></script>
     @RenderSection("SectionHead")
 </head>
-<body style="height: 100%;">
+<body style="height: 100%;background: #f3f3f3;">
 <div id="main-conteiner">
     <div style="position: relative" id="content-conteiner">
         <header class="header">
@@ -66,7 +67,7 @@
                                 <a href="">О компании</a>
                             </li>
                             <li>
-                                <a href="">Контакты</a>
+                                <a href="@Url.Action("ContactView","Contact")">Контакты</a>
                             </li>
                         </ul>
                     </nav>

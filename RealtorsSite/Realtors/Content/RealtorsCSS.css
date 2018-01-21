@@ -238,3 +238,11 @@
     color: #fff;
     background-color: #2da9e9;
 }
+.conteiner-main-content {
+    width: 1140px;
+    position: relative;
+    min-height: 200px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding-bottom: 20px;
+}

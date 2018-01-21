@@ -10,7 +10,7 @@ namespace Realtors.Controllers
     public class RoomController : Controller
     {
         // GET: Room
-        public ActionResult RoomOneView(long idRoom)
+        public ActionResult RoomOneView(long idRoom, long tabNumber)
         {
             var Rooms = new List<RoomModel>
             {
@@ -27,7 +27,9 @@ namespace Realtors.Controllers
                     CountRooms = 2,
                     Price = 1200000,
                     Address = "Холодильная 51",
-                    AddressArea = "Тюменский"
+                    AddressArea = "Тюменский",
+                    Description = "awdawidokmp,lawdkma,plwdkima,plwdkaoplw,da" +
+                                  "wdaowldawpdola,w.dlpaw;.daoklpw;.dawpok,ld;.awpo,dl;.awldp;.awd"
                 },
                 new RoomModel()
                 {
@@ -116,6 +118,7 @@ namespace Realtors.Controllers
             };
             var model=new RoomModel();
             model = Rooms.FirstOrDefault(x => x.Id == idRoom);
+            model.TabNumber = tabNumber;
             return View(model);
         }
     }

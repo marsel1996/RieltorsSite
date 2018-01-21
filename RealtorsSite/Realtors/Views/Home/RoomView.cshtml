@@ -15,7 +15,8 @@
             <span class="img">
                 <img src="@Model.Image[0]" alt="@Model.Name">
             </span>
-            <strong>@Model.Name</strong>
+        <a href="@Url.Action("RoomOneView","Room", new RouteValueDictionary(new { idRoom = @Model.Id , tabNumber=1}))">
+            <strong>@Model.Name</strong></a>
         </a>
         <ul class="txt">
             <li>
@@ -41,7 +42,7 @@
                 <svg viewBox="0 0 277.97 362.8"><path d="M267.68 55.64C261.82 40.5 253.27 31.51 244.21 23S219.07 6.38 205.74 3.55C196.11 1.09 182 0 163.87 0H23v168.07H0v37.67h23V221H0v37.7h23v104.1h40.39V258.7H208V221H63.39v-15.26h103.67c38.9 0 66.79-10.87 84.18-32 16.59-20.21 26.73-37.89 26.73-68.9 0-18-5-34.48-10.36-49.26zm-53 95.19c-10.14 11.59-23.54 17.24-47 17.24H63.46V38.61h103.38c16.52 0 28 1.09 33.83 3.19 9.71 6.16 17.31 10.94 23 21.44 5.87 10.94 8.77 23.91 8.77 38.69a74.49 74.49 0 0 1-17.82 48.9z"></path></svg>
             </span>
         </div>
-        <a class="buttonRoomOne" href="@Url.Action("RoomOneView","Room", new RouteValueDictionary(new { idRoom = @Model.Id }))">
+        <a class="buttonRoomOne" href="@Url.Action("RoomOneView","Room", new RouteValueDictionary(new { idRoom = @Model.Id, tabNumber=1 }))">
             Показать больше
         </a>
     </div>
